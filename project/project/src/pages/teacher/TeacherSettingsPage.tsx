@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import { Save, Bell, Shield, Palette, Globe, Database, Mail } from 'lucide-react';
 
 const TeacherSettingsPage = () => {
