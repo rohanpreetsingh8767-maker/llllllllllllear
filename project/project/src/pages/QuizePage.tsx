@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BookOpen, CheckCircle2, HelpCircle, XCircle } from 'lucide-react';
+import {  CheckCircle2,XCircle } from 'lucide-react';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Button from '../components/Button';
