@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
             <h3 className="text-sm font-semibold uppercase tracking-wider">Company</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <Link href="#" className="text-gray-300 hover:text-white text-sm">
+                <Link to="#" className="text-gray-300 hover:text-white text-sm">
                   About
                 </Link>
               </li>
