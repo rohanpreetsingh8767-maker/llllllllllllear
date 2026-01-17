@@ -142,26 +142,6 @@ const ProfilePage: React.FC = () => {
   ];
 
   // Current goals
-  const currentGoals: Goal[] = [
-    {
-      id: 'weekly-tests',
-      title: 'Take 5 tests this week',
-      target: 5,
-      current: 3,
-      unit: 'tests',
-      deadline: '2024-03-24',
-      type: 'weekly'
-    },
-    {
-      id: 'monthly-accuracy',
-      title: 'Maintain 85% accuracy',
-      target: 85,
-      current: 88,
-      unit: '%',
-      deadline: '2024-03-31',
-      type: 'monthly'
-    }
-  ];
 
   const handleDownloadReport = () => {
     setShowToast(true);
