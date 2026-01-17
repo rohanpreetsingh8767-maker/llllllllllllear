@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, Clock, Target, Trophy,Filter, ArrowRight, TrendingUp, Award, Star } from 'lucide-react';
+import { Calendar, Clock, Target, Trophy, ArrowRight, TrendingUp, Award, Star } from 'lucide-react';
 import Button from '../../components/Button';
 
 interface TestResult {
