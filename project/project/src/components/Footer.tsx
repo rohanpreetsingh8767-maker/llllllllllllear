@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/quiz" className="text-gray-300 hover:text-white text-sm">
+                <Link to="/quiz" className="text-gray-300 hover:text-white text-sm">
                   Quiz Generator
                 </Link>
               </li>
