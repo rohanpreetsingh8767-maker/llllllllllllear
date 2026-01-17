@@ -114,9 +114,7 @@ const UploadNotesPage = () => {
     ));
   };
 
-  const getFileIcon = (fileType: string) => {
-    return <FileText className="text-blue-600" size={20} />;
-  };
+ 
 
   const subjects = ['React Development', 'JavaScript', 'CSS', 'HTML', 'Node.js', 'Database', 'Other'];
 
