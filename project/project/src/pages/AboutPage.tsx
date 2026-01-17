@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Rocket, Target, Users, Star } from 'lucide-react';
+import { Rocket, Target, Star } from 'lucide-react';
 import Layout from '../components/Layout';
 
 const teamMembers = [
