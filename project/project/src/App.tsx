@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { TeacherProvider } from './contexts/TeacherContext';
 import HomePage from './pages/HomePage';
