@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, Mic, Copy, ThumbsUp, ThumbsDown, Bot, User, Sparkles,  Brain, MessageCircle } from 'lucide-react';
+import { Send, Mic, Copy, ThumbsUp, ThumbsDown, Bot, User, Sparkles,  Brain } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Button from '../../components/Button';
 import Toast, { ToastType } from '../../components/Toast';
