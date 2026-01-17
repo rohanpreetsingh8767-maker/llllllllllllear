@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-300 hover:text-white text-sm">
+                <Link to="#" className="text-gray-300 hover:text-white text-sm">
                   Terms of Service
                 </Link>
               </li>
