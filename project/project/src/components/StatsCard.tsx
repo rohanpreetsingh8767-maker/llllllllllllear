@@ -1,10 +1,8 @@
-import React from 'react';
-import { DivideIcon as LucideIcon } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 
 interface StatsCardProps {
   title: string;
   value: string;
-  subtitle: string;
   icon: LucideIcon;
   color: string;
   trend?: string;
@@ -14,7 +12,6 @@ interface StatsCardProps {
 const StatsCard: React.FC<StatsCardProps> = ({
   title,
   value,
-  subtitle,
   icon: Icon,
   color,
   trend,
@@ -31,6 +28,7 @@ const StatsCard: React.FC<StatsCardProps> = ({
           <p className="text-2xl font-semibold text-gray-900">{value}</p>
         </div>
       </div>
+
       {trend && (
         <div className="mt-4">
           <div className={`flex items-center text-sm ${trendColor}`}>
