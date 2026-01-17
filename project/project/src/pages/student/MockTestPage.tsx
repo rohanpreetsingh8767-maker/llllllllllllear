@@ -142,7 +142,7 @@ const MockTestPage: React.FC = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [timeLeft, setTimeLeft] = useState(testConfig.duration * 60); // in seconds
   const [isTestStarted, setIsTestStarted] = useState(false);
-  const [isTestPaused, setIsTestPaused] = useState(false);
+  const [isTestPaused] = useState(false);
   const [isTestSubmitted, setIsTestSubmitted] = useState(false);
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
   const [showQuestionPalette, setShowQuestionPalette] = useState(false);
