@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/group" className="text-gray-300 hover:text-white text-sm">
+                <Link to="/group" className="text-gray-300 hover:text-white text-sm">
                   Group Study
                 </Link>
               </li>
