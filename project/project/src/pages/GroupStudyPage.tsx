@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Users, User, MessageSquare, FileUp, Send, Plus, Video } from 'lucide-react';
+import { Users, MessageSquare, FileUp, Send, Plus, Video } from 'lucide-react';
 import Button from '../components/Button';
 import Input from '../components/Input';
 import Toast, { ToastType } from '../components/Toast';
