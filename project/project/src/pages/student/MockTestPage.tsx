@@ -331,7 +331,7 @@ const MockTestPage: React.FC = () => {
 
   const attemptedCount = questions.filter(q => q.userAnswer !== null).length;
   const markedCount = questions.filter(q => q.isMarkedForReview).length;
-  const notVisitedCount = questions.length - attemptedCount;
+  //const notVisitedCount = questions.length - attemptedCount;
 
   if (!isTestStarted) {
     return (
