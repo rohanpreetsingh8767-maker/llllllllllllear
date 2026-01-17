@@ -12,9 +12,7 @@ import {
   BookOpen,
   Eye,
   EyeOff,
-  Pause,
   Play,
-  RotateCcw,
   Send
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
