@@ -704,12 +704,19 @@ const ExamPracticePage: React.FC = () => {
             
             <div className="mb-6">
               <Calendar
-                onChange={setSelectedDate}
-                value={selectedDate}
-                className="w-full rounded-lg border-none"
-                tileClassName={tileClassName}
-                tileContent={tileContent}
-              />
+  onChange={(value) => {
+    if (value instanceof Date) {
+      setSelectedDate(value);
+    } else {
+      setSelectedDate(null);
+    }
+  }}
+  value={selectedDate}
+  className="w-full rounded-lg border-none"
+  tileClassName={tileClassName}
+  tileContent={tileContent}
+/>
+
             </div>
 
             {selectedDate && (
