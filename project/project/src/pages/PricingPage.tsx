@@ -203,24 +203,12 @@ const PricingPage: React.FC = () => {
                   ))}
                 </ul>
 
-               <Link to={plan.href} className="block">
+                <Link to={plan.href} className="block">
   <motion.button>
     {plan.cta}
   </motion.button>
 </Link>
 
-                  <motion.button
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className={`w-full py-3 px-6 rounded-xl text-lg font-semibold transition-all duration-200 ${
-                      plan.popular
-                        ? 'bg-indigo-600 text-white hover:bg-indigo-700'
-                        : 'bg-indigo-100 text-indigo-900 hover:bg-indigo-200'
-                    }`}
-                  >
-                    {plan.cta}
-                  </motion.button>
-                </Link>
               </motion.div>
             ))}
           </div>
