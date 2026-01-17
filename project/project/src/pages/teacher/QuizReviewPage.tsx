@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CheckCircle, XCircle, Clock, User, FileText, MessageSquare, Star } from 'lucide-react';
+import { CheckCircle, XCircle, Clock, User, MessageSquare, Star } from 'lucide-react';
 
 interface QuizSubmission {
   id: number;
