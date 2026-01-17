@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/performance" className="text-gray-300 hover:text-white text-sm">
+                <Link to="/performance" className="text-gray-300 hover:text-white text-sm">
                   Performance Tracker
                 </Link>
               </li>
