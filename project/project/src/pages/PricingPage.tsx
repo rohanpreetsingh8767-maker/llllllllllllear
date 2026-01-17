@@ -203,7 +203,12 @@ const PricingPage: React.FC = () => {
                   ))}
                 </ul>
 
-                <Link href={plan.href} className="block">
+               <Link to={plan.href} className="block">
+  <motion.button>
+    {plan.cta}
+  </motion.button>
+</Link>
+
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
