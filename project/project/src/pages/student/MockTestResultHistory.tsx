@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import {  Clock, CheckCircle2, ArrowRight, Brain, Users, Filter, Download, TrendingUp, Award } from 'lucide-react';
+import {   CheckCircle2, ArrowRight, Brain, Users, Filter, Download, TrendingUp, Award } from 'lucide-react';
 import Button from '../../components/Button';
 
 interface MockTestResult {
