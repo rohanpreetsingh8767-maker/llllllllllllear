@@ -417,7 +417,7 @@ const ExamPracticePage: React.FC = () => {
   const [selectedExam, setSelectedExam] = useState<string>('');
   const [searchQuery, setSearchQuery] = useState('');
 
-  const handleStartExam = (examId: string, examTitle: string) => {
+  const handleStartExam = (examTitle: string) => {
     setSelectedExam(examTitle);
     setShowMockTestModal(true);
   };
