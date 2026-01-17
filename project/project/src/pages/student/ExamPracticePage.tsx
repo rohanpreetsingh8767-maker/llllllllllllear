@@ -1,5 +1,20 @@
 import React, { useState } from 'react';
-import { BookOpen, CheckCircle2, HelpCircle, XCircle, Calendar as CalendarIcon, Clock, GraduationCap, ArrowRight, Brain, Users, Zap, Target,Search } from 'lucide-react';
+import {
+  BookOpen,
+  CheckCircle2,
+  Calendar as CalendarIcon,
+  Clock,
+  GraduationCap,
+  ArrowRight,
+  Brain,
+  Users,
+  Zap,
+  Target,
+  Search,
+  Code,
+  FileText
+} from 'lucide-react';
+
 import { useNavigate } from 'react-router-dom';
 import Calendar from 'react-calendar';
 import Button from '../../components/Button';
