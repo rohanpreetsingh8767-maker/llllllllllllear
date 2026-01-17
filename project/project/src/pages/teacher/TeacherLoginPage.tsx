@@ -189,7 +189,7 @@ const TeacherLoginPage: React.FC = () => {
         <div className="w-full md:w-1/2 flex items-center justify-center p-12">
           <div className="w-full max-w-md">
             <div className="flex justify-between items-center mb-8">
-              <Link href="/teacher" className="flex items-center">
+              <Link to="/teacher" className="flex items-center">
                 <span className="text-2xl font-bold text-[#06142E]">Learnex</span>
               </Link>
               <Link href="/teacher">
