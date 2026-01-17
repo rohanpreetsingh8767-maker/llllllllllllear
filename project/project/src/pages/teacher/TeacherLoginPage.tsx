@@ -192,7 +192,7 @@ const TeacherLoginPage: React.FC = () => {
               <Link to="/teacher" className="flex items-center">
                 <span className="text-2xl font-bold text-[#06142E]">Learnex</span>
               </Link>
-              <Link href="/teacher">
+              <Link to="/teacher">
                 <Button variant="outline" size="sm">Go Back</Button>
               </Link>
             </div>
