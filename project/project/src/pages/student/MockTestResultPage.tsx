@@ -73,8 +73,7 @@ const MockTestResultPage: React.FC = () => {
   const result = mockResultData; // In real app, fetch based on examId
 
   const accuracy = Math.round((result.correct / result.attempted) * 100);
-  const percentageScore = Math.round((result.score / result.maxScore) * 100);
-
+  
   return (
     <div className="p-6">
       <div className="mb-8">
